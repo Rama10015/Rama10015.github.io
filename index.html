@@ -9,10 +9,14 @@
             background: #f4f4f4;
         }
         header {
-            background: #0077b6;
+            background: #001f3f;
             color: white;
             padding: 20px;
             text-align: center;
+        }
+        header img {
+            width: 200px;
+            border-radius: 10px;
         }
         section {
             padding: 20px;
@@ -23,11 +27,28 @@
             margin: 10px 0;
             border-radius: 10px;
         }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
         footer {
             background: #333;
             color: white;
             text-align: center;
             padding: 10px;
+        }
+
+        /* WhatsApp Button */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 20px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -35,7 +56,8 @@
 <body>
 
 <header>
-    <h1>Rama Holiday's ??</h1>
+    <img src="logo.jpg" alt="Rama Holidays Logo">
+    <h1>Rama Holiday's ✈️</h1>
     <p>Your Travel Partner</p>
 </header>
 
@@ -48,20 +70,39 @@
 
 <section>
     <h2>Popular Packages</h2>
-    <div class="card">Goa Beach Tour ???</div>
-    <div class="card">Manali Trip ??</div>
-    <div class="card">Kerala Tour ??</div>
+
+    <div class="card">
+        <h3>Goa Beach Tour 🏝️</h3>
+        <img src="https://source.unsplash.com/600x400/?goa,beach">
+    </div>
+
+    <div class="card">
+        <h3>Manali Trip ❄️</h3>
+        <img src="https://source.unsplash.com/600x400/?manali,mountains">
+    </div>
+
+    <div class="card">
+        <h3>Kerala Tour 🌴</h3>
+        <img src="https://source.unsplash.com/600x400/?kerala,backwaters">
+    </div>
+
 </section>
 
 <section>
     <h2>Contact Us</h2>
-    <p>Email: ramaholidays@email.com</p>
-    <p>Phone: +91 XXXXXXXX</p>
+    <p>Email: ramaholidays836@email.com</p>
+    <p>Phone: +91 9099301799</p>
+    <p>Phone: +91 8160159108</p>
 </section>
 
 <footer>
     <p>© 2026 Rama Holiday's</p>
 </footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/919876543210" target="_blank">
+    💬
+</a>
 
 </body>
 </html>
